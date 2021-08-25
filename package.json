@@ -1,11 +1,23 @@
 {
   "name": "myh-gulp",
   "version": "1.0.0",
-  "main": "lib/index.js",
-  "bin": "bin/myh-gulp.js",
-  "repository": "https://github.com/CXris/myh-gulp.git",
-  "author": "Chris <mengyuhuan@hotmail.com>",
   "license": "MIT",
+  "author": "Chris <mengyuhuan@hotmail.com>",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "main": "lib/index.js",
+  "bin": {
+    "myh-gulp": "bin/myh-gulp.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CXris/myh-gulp.git"
+  },
   "dependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
